@@ -22,21 +22,21 @@ export default function Projects() {
       tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
       Link: "http://localhost:3000/",
       cover: "/project1.png",
-      background: "bg-gray-600",
+      background: "bg-teal-700",
     },
     {
       title: "Music Networking App",
       tech: [SiReact, SiNodedotjs, SiExpress, SiMongodb],
       Link: "https://den.up.railway.app/",
       cover: "/project2.png",
-      background: "bg-gray-600",
+      background: "bg-teal-700",
     },
     {
       title: "E-Commerce App",
       tech: [SiNextdotjs, SiTailwindcss, SiJavascript, SiSanity],
       Link: "https://github.com/fawady2j/e-commerce",
       cover: "/project3.png",
-      background: "bg-gray-600",
+      background: "bg-teal-700",
     },
   ];
   return (
