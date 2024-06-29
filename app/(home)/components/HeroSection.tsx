@@ -14,6 +14,7 @@ export default function HeroSection() {
         type: "box",
         color: "pink",
         padding: 6,
+        animationDuration: 2000,
       });
       annotation.show();
     }
