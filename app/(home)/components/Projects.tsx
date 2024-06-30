@@ -1,6 +1,8 @@
 import React from "react";
 import {
+  SiCss3,
   SiExpress,
+  SiHtml5,
   SiJavascript,
   SiMongodb,
   SiNextdotjs,
@@ -37,6 +39,13 @@ export default function Projects() {
       tech: [SiNextdotjs, SiTailwindcss, SiJavascript, SiSanity, SiStripe],
       Link: "https://e-commerce-lake-omega-68.vercel.app/",
       cover: "/project3.png",
+      background: "bg-white",
+    },
+    {
+      title: "Tic-Tac-Toe",
+      tech: [SiHtml5, SiCss3, SiJavascript],
+      Link: "https://tic-tac-toe-beige-seven.vercel.app/",
+      cover: "/project4.png",
       background: "bg-white",
     },
   ];
