@@ -7,6 +7,7 @@ import {
   SiNodedotjs,
   SiReact,
   SiSanity,
+  SiStripe,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -22,21 +23,21 @@ export default function Projects() {
       tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
       Link: "http://localhost:3000/",
       cover: "/project1.png",
-      background: "bg-teal-700",
+      background: "bg-white",
     },
     {
       title: "Music Networking App",
       tech: [SiReact, SiNodedotjs, SiExpress, SiMongodb],
       Link: "https://den.up.railway.app/",
       cover: "/project2.png",
-      background: "bg-teal-700",
+      background: "bg-white",
     },
     {
       title: "E-Commerce App",
-      tech: [SiNextdotjs, SiTailwindcss, SiJavascript, SiSanity],
-      Link: "https://github.com/fawady2j/e-commerce",
+      tech: [SiNextdotjs, SiTailwindcss, SiJavascript, SiSanity, SiStripe],
+      Link: "https://e-commerce-lake-omega-68.vercel.app/",
       cover: "/project3.png",
-      background: "bg-teal-700",
+      background: "bg-white",
     },
   ];
   return (
@@ -49,7 +50,7 @@ export default function Projects() {
         {projects.map((project, index) => {
           return (
             <Link href={project.Link} key={index}>
-              <div className={cn("p-2 rounded-md", project.background)}>
+              <div className={cn("p-2", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full space-y-5 cursor-pointer"
