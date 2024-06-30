@@ -23,7 +23,7 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
-      Link: "http://localhost:3000/",
+      Link: "https://github.com/fawady2j/portfolio",
       cover: "/project1.png",
       background: "bg-white",
     },
